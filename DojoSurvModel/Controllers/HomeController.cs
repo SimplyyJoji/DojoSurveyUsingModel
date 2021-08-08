@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using DojoSurvModel.Models;
 
-namespace DojoSurvModel.Controller
+namespace DojoSurvModel.Controllers
 {
   public class HomeController : Controller
 {
@@ -13,9 +13,10 @@ namespace DojoSurvModel.Controller
     }
 
 [HttpPost("survey")]
-public IActionResult View(string name, string location, string language, string comment )
+public IActionResult Results(Survey survey)
 {
     // Handle your form submission here
+    return View(survey);
     
 }
 

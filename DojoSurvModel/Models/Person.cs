@@ -1,3 +1,4 @@
+
 namespace DojoSurvModel.Models
 {
    public class Survey
@@ -5,7 +6,7 @@ namespace DojoSurvModel.Models
     public string Name { get; set; }
     public string Location { get; set; }
     public string Language { get; set; }
-    public string Comment { get; set; }
+    public string Comments { get; set; }
 
     // your Survey fields go here
 } 

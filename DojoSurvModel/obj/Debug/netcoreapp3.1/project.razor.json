@@ -14402,8 +14402,8 @@
   "RootNamespace": "DojoSurvModel",
   "Documents": [
     {
-      "FilePath": "/Users/javanogden/Desktop/CodingDojo/cSharp/ASP.NETCore/DojoSurveyUsingModel/DojoSurvModel/Views/Home/View.cshtml",
-      "TargetPath": "Views\\Home\\View.cshtml",
+      "FilePath": "/Users/javanogden/Desktop/CodingDojo/cSharp/ASP.NETCore/DojoSurveyUsingModel/DojoSurvModel/Views/Home/Results.cshtml",
+      "TargetPath": "Views\\Home\\Results.cshtml",
       "FileKind": "mvc"
     },
     {
